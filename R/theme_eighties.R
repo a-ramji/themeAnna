@@ -1,3 +1,9 @@
+#' An Eighties-inspired ggplot theme
+#'
+#' @return
+#' @export
+#'
+#' @examples
 theme_eighties <- function() {
   theme(plot.background = element_rect(fill = "magenta"),
         panel.background = element_rect(fill = "grey"),
